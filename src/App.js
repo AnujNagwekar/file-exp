@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import FileExplorer from './Components/FileExplorer/FileExplorer'
+import FileExplorer from './Components/File_Exp/FileExplorer'
 function App() {
   const [fileExplorer, setFileExplorer] = useState([
     {

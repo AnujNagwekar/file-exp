@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './FileExplorer.css'
-import InputBox from '../InputBox/InputBox';
-import MainDiv from '../Main_Div/MainDiv';
+import InputBox from '../Inp_Bx/InputBox';
+import MainDiv from '../Main_Div/Main';
 
 const FileExplorer = (props) => {
     console.log(props.fileExplorer);

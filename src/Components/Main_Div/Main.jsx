@@ -1,5 +1,5 @@
-import FolderComponent from '../FolderComponent/FolderComponent'
-import FileComponent from '../FileComponent/FileComponent'
+import FolderComponent from '../Folder-Comp/FolderComponent'
+import FileComponent from '../File_Comp/FileComponent'
 let uniqueId = -1;
 const generateUniqueId = () => {
     uniqueId++;
