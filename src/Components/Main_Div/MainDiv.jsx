@@ -25,7 +25,7 @@ const MainDiv = (props) => {
                     }
                 });
                 if (props.name === " " || props.name === "") {
-                    window.alert("Please Enter Folder Name")
+                    window.alert("No input given. Please enter a name")
                 }
                 else if (!nameExist) {
                     elem.children.push(newObj);
@@ -57,7 +57,7 @@ const MainDiv = (props) => {
                     }
                 });
                 if (props.name === " " || props.name === "") {
-                    window.alert("Please Enter File Name")
+                    window.alert("No input given. Please enter a name")
                 }
                 else if (!nameExist) {
                     elem.children.push(newObj);

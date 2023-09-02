@@ -9,7 +9,7 @@ const FileExplorer = (props) => {
 
     return (
         <div className="Main">
-            <h1 className='heading'>File Explorer</h1>
+            <h1 className='heading'>File Explorer Using React</h1>
             <InputBox name={name} setName={setName} />
 
             <div>

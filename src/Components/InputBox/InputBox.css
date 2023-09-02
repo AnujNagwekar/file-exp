@@ -1,31 +1,31 @@
+/* InputBox.css */
+
+/* InputBox container */
 .InputDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    font-size: 20px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid black;
-  }
-  
-  #InputBox {
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 20px;
-    width: 250px;
-    font-size: 16px;
-    height: 40px;
-    margin-left: 10px;
-    text-align: center;
-  }
-  
-  #InputBox:focus {
-    border-color: #007bff; /* Change the border color when input is focused */
-    outline: none; /* Remove the default blue outline */
-  }
-  
-  #error {
-    color: red;
-    margin-top: 5px;
-  }
-  
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label style */
+.InputDiv label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input field style */
+#InputBox {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Error message style */
+#error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* You can customize these styles further as needed */
